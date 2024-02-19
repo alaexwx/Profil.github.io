@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alae-Eddine Rhazouane - My Journey</title>
+    <link rel="stylesheet" href="Styling.css">
+</head>
+<body>
+    <header>
+        <div class="school-logo">
+            <img src="IMAGES/kedge-logo.png" alt="School Logo" style="width: 100px; position: absolute; top: 10px; left: 10px;">
+        </div>
+        <div class="profile-banner">
+            <img src="IMAGES/WhatsApp Image 2023-12-25 at 14.08.231.jpg" alt="Alae-Eddine Rhazouane" class="profile-photo">
+            <h1>Alae-Eddine Rhazouane</h1>
+            <p>A Glimpse into My World</p>
+        </div>
+    </header>
+    <section class="about-me">
+        <h2>About Me</h2>
+        <p>I'm a 23-year-old Master's student in International Trade and Logistics, exploring the synergies between different cultures and markets.</p>
+        <img src="IMAGES/Flag_of_Morocco.svg.png" alt="My Flag" class="country-flag">
+    </section>
+    <section class="my-pets">
+        <h2>My Companions</h2>
+        <div class="pet-gallery">
+            <video class="pet-video" controls>
+                <source src="IMAGES/WhatsApp Video 2024-02-18 at 12.52.27.mp4" type="video/mp4">
+            </video>
+            <img src="IMAGES/WhatsApp Image 2024-02-18 at 12.52.25.jpeg" alt="My Dog" class="pet-image">
+            <img src="IMAGES/WhatsApp Image 2024-02-18 at 1.jpeg" alt="My horse" class="pet-image">
+        </div>
+    </section>
+    <section class="my-goals">
+        <h2>My Goals</h2>
+        <p>With a profound passion for pioneering inventions, I am at the forefront of developing the 'iBrain', an innovative chip designed to revolutionize and safeguard the future of humanity.</p>
+        <button onclick="window.location.href='https://alaexwx.github.io/I-brainx.github.io/';">Learn More About iBrain</button>
+    </section>
+    <footer>
+        <p>Connect with me and join in on my journey.</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/alae_eddine24" target="_blank">Instagram</a> |
+            <a href="https://www.linkedin.com/in/aerkbs/" target="_blank">LinkedIn</a> |
+            <a href="https://www.facebook.com/alae_eddine24" target="_blank">Facebook</a>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const images = document.querySelectorAll('.pet-image, .profile-photo');
+            images.forEach(image => {
+                image.addEventListener('click', function() {
+                    this.classList.toggle('enlarged');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
