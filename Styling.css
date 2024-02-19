@@ -1,0 +1,75 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #444;
+    background: #f8f8f8;
+}
+
+header {
+    background-color: #005f73;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+.profile-banner {
+    padding: 20px;
+}
+
+.profile-photo {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 15%; 
+    border: 4px solid white;
+    display: block;
+    margin: 10px auto;
+}
+
+.about-me, .my-goals, .my-pets {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.country-flag {
+    width: 100px;
+    display: block;
+    margin: 20px auto;
+}
+
+.pet-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.pet-video {
+    width: 120px; 
+    height: 120px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
+    cursor: pointer;  
+}
+.pet-image {
+    width: 120px; 
+    height: 120px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
+    cursor: pointer; 
+}
+
+footer {
+    background-color: #002e2e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.enlarged {
+    transform: scale(2.0); 
+}
